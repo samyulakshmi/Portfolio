@@ -35,7 +35,7 @@ function Contact() {
             <MdOutlineMailOutline className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>samyukthavenugopalan@gmail.com</h5>
-            <a href="mailto:samyukthavenugopalan@gmail.com" target='_blank'>Send a Message</a>
+            <a href="mailto:samyukthavenugopalan@gmail.com" target='_blank' rel="noreferrer">Send a Message</a>
            </div>
         </div>
         <form ref={form} onSubmit={sendEmail}>
