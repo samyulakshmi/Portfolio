@@ -1,5 +1,5 @@
 import React from 'react'
-import { IoHomeOutline } from "react-icons/io5";
+import { IoIosHome } from "react-icons/io";
 import { FaRegUser } from "react-icons/fa";
 import { FiBook } from "react-icons/fi";
 import { MdDesignServices } from "react-icons/md";
@@ -12,7 +12,7 @@ function Nav() {
   const [activeNav,setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><IoHomeOutline /></a>
+      <a href="#top" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><IoIosHome /></a>
       <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><FaRegUser /></a>
       <a href="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}><MdDesignServices /></a>
       <a href="#experiences" onClick={() => setActiveNav('#experiences')} className={activeNav === '#experiences' ? 'active' : ''}><FiBook /></a>
